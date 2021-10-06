@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
-import style from "../styles/components/Footer.module.scss";
+import style from "../style/Footer.module.scss";
 
 const Footer: FC = () => {
   const { logout, isAuthenticated } = useAuth0();

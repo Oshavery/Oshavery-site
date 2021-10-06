@@ -1,12 +1,10 @@
 on:
   push:
     branches:
-      - master
-      - Geek-Edition
+      - main
   pull_request:
     branches:
-      - master
-      - Geek-Edition
+      - main
 
 env:
   HUSKY: 0
