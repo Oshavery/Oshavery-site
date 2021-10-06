@@ -4,7 +4,7 @@ import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import style from "../styles/components/Layout.module.scss";
+import style from "../style/Layout.module.scss";
 
 const SiteName = "Oshavery";
 const SiteImage = "https://media.oshavery-app.net/logos/ogp.png";

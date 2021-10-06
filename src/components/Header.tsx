@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useAuth0 } from "@auth0/auth0-react";
 import logo from "../../public/logo_long_dark.png";
-import style from "../styles/components/Header.module.scss";
+import style from "../style/Header.module.scss";
 
 const Header: FC = () => {
   const { isAuthenticated, loginWithRedirect } = useAuth0();
