@@ -1,4 +1,4 @@
-import "../styles/global.scss";
+import "../style/global.scss";
 import type { AppProps } from "next/app";
 import { Auth0Provider } from "@auth0/auth0-react";
 import ContextProvider from "../stores/ContextProvider";

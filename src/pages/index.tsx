@@ -6,7 +6,7 @@ import { FaGithub, FaTwitter } from "react-icons/fa";
 
 import Layout from "../components/Layout";
 import logo from "../../public/logo_long.png";
-import style from "../styles/pages/index.module.scss";
+import style from "../style/index.module.scss";
 
 const Home: NextPage = () => {
   const { isAuthenticated, loginWithRedirect } = useAuth0();
